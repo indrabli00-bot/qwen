@@ -1,0 +1,14 @@
+{
+  "name": "Sedot WC Medan",
+  "short_name": "Sedot WC",
+  "description": "Jasa sedot WC 24 jam di Medan",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "icons": [
+    {"src": "favicon-16x16.png", "sizes": "16x16", "type": "image/png"},
+    {"src": "favicon-32x32.png", "sizes": "32x32", "type": "image/png"},
+    {"src": "apple-touch-icon.png", "sizes": "180x180", "type": "image/png"}
+  ]
+}

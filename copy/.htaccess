@@ -1,0 +1,52 @@
+RewriteEngine On
+
+# ============================================================
+# 1) Paksa HTTPS (dipertahankan dari konfigurasi lama .htaccessx)
+# ============================================================
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# ============================================================
+# 2) Halaman statis → file di folder /pages/
+#    /tentang            → pages/about.php
+#    /kontak             → pages/contact.php
+#    /kebijakan-privasi  → pages/privacy-policy.php
+#    /disclaimer         → pages/disclaimer.php
+# ============================================================
+RewriteRule ^tentang/?$          pages/about.php          [L]
+RewriteRule ^kontak/?$           pages/contact.php        [L]
+RewriteRule ^kebijakan-privasi/?$ pages/privacy-policy.php [L]
+RewriteRule ^disclaimer/?$       pages/disclaimer.php     [L]
+
+# ============================================================
+# 3) Blog
+#    /blog              → blog.php (daftar artikel)
+#    /blog/nama-slug    → artikel/nama-slug.php (URL bersih, pasal 4.4)
+# ============================================================
+RewriteRule ^blog/?$             blog.php                 [L]
+RewriteRule ^blog/([a-z0-9-]+)/?$ artikel/$1.php          [L]
+
+# ============================================================
+# 4) Blokir akses langsung ke folder internal & file sensitif
+# ============================================================
+RewriteRule ^artikel/ - [F,L]
+RewriteRule ^(header|footer)\.php$ - [F,L]
+RewriteRule ^(\.git|\.user\.ini|php\.ini) - [F,L]
+
+# ============================================================
+# 5) Halaman 404 kustom
+# ============================================================
+ErrorDocument 404 /404.php
+
+# ============================================================
+# 6) Cache aset statis (performa — sinyal positif untuk review)
+# ============================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpeg "access plus 30 days"
+    ExpiresByType image/png  "access plus 30 days"
+    ExpiresByType image/webp "access plus 30 days"
+    ExpiresByType video/mp4  "access plus 30 days"
+    ExpiresByType text/css   "access plus 7 days"
+    ExpiresByType application/javascript "access plus 7 days"
+</IfModule>

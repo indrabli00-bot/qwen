@@ -1,0 +1,23 @@
+Options -Indexes
+RewriteEngine On
+
+# Biarkan validasi SSL (AutoSSL / Let's Encrypt) lewat tanpa redirect
+RewriteRule ^\.well-known/ - [L]
+RewriteRule ^(acme-challenge|pki-validation)/ - [L]
+
+# Paksa HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Lindungi folder internal
+RewriteRule ^(inc|content)(/|$) - [F,L]
+
+# URL bersih
+RewriteRule ^blog/?$ blog.php [L]
+RewriteRule ^blog/([a-z0-9-]+)/?$ artikel.php?slug=$1 [L,QSA]
+RewriteRule ^tentang/?$ tentang.php [L]
+RewriteRule ^kontak/?$ kontak.php [L]
+RewriteRule ^kebijakan-privasi/?$ kebijakan-privasi.php [L]
+RewriteRule ^sitemap\.xml$ sitemap.php [L]
+
+ErrorDocument 404 /404.php

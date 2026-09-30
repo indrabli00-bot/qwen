@@ -1,0 +1,3 @@
+# Ganti baris di bawah dengan Publisher ID Anda setelah mendaftar AdSense
+# (AdSense akan menampilkan barisnya di menu Sites / ads.txt). Contoh format:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
