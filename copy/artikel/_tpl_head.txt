@@ -1,0 +1,13 @@
+<?php
+/**
+ * Artikel: Tips Merawat Septic Tank agar Tidak Cepat Penuh
+ * URL bersih: /blog/cara-merawat-septic-tank   (via .htaccess aturan 3)
+ */
+$articles_all = require __DIR__ . '/articles-data.php';
+$this_article = null;
+foreach ($articles_all as $a) { if ($a['slug'] === 'cara-merawat-septic-tank') { $this_article = $a; break; } }
+
+$page_title     = $this_article['judul'] . ' | Sedot WC Medan';
+$meta_desc      = $this_article['meta_desc'];
+$canonical_path = '/blog/' . $this_article['slug'];
+

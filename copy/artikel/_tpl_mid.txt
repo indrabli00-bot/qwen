@@ -1,0 +1,25 @@
+            <h1><?php echo htmlspecialchars($this_article['judul']); ?></h1>
+            <div class="article-meta">
+                <span>Diterbitkan: <?php echo art_meta_tanggal($this_article['tanggal']); ?></span>
+                <span>Kategori: <?php echo htmlspecialchars($this_article['kategori']); ?></span>
+                <span>Estimasi baca: {MINIT} menit</span>
+            </div>
+
+            <div class="article-body">
+{BODY}                <h2>Pertanyaan yang Sering Diajukan</h2>
+                <div class="faq-list">
+                    <?php foreach ($faq as $f): ?>
+                    <details class="faq-item">
+                        <summary><?php echo htmlspecialchars($f['q']); ?></summary>
+                        <div class="faq-answer"><?php echo htmlspecialchars($f['a']); ?></div>
+                    </details>
+                    <?php endforeach; ?>
+                </div>
+
+                <?php art_cta(); ?>
+                <?php art_related_html($this_article['slug'], $articles_all); ?>
+            </div>
+        </article>
+    </div>
+</section>
+<?php require_once __DIR__ . '/../footer.php'; ?>

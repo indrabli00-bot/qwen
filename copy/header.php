@@ -25,6 +25,11 @@ $meta_desc      = isset($meta_desc)      ? $meta_desc      : 'Jasa sedot WC Meda
 $canonical_path = isset($canonical_path) ? $canonical_path : '/';
 $schema_jsonld  = isset($schema_jsonld)  ? $schema_jsonld  : '';
 $is_root_page   = ($canonical_path === '/');
+
+// ---------- Helper artikel: daftar pustaka tunggal (dipakai blog.php, sitemap generator, artikel) ----------
+// Untuk menambah artikel baru: buat file /artikel/<slug>.php lalu tambahkan entri di sini.
+$articles_file = __DIR__ . '/artikel/articles-data.php';
+$articles_list = is_file($articles_file) ? require $articles_file : array();
 ?>
 <!DOCTYPE html>
 <html lang="id" dir="ltr">
@@ -103,6 +108,8 @@ $is_root_page   = ($canonical_path === '/');
 
     <!-- ===== Stylesheet ===== -->
     <link rel="stylesheet" href="/style.css">
+    <!-- article-style.css hanya menambah komponen halaman dalam (blog/artikel/halaman statis); beranda tidak terpengaruh -->
+    <link rel="stylesheet" href="/article-style.css">
 
     <!-- ===== Critical CSS Inline (Above-the-Fold) ===== -->
     <style>
