@@ -1,17 +1,19 @@
 <?php
 /**
- * index.php — Beranda jasa sedot WC.
- * Modular: header.php di atas, footer.php di bawah (pasal 4.1 blueprint).
+ * index.php — Beranda jasa sedot WC medansedotwc.my.id
+ * Arsitektur modular (pasal 3 & 4.1 blueprint):
+ *   header.php di atas  -> <head>, meta SEO, kode AdSense (1x), topbar + menu
+ *   footer.php di bawah -> copyright, 4 halaman wajib, CTA mengambang, penutup dokumen
+ * Seluruh konten body beranda asli (popup, hero, layanan, kenapa kami, proses,
+ * video, galeri, testimoni, form kontak, peta) dipertahankan 100% tanpa pengurangan.
  */
-$page_title     = 'Sedot WC Medan 24 Jam | Survey Gratis, Cepat & Bersih';
-$meta_desc      = 'Jasa sedot WC Medan Sunggal terpercaya 24 jam. Atasi WC mampet, penuh, bau & saluran tersumbat. Survey GRATIS, harga terjangkau, tenaga profesional.';
+$page_title     = 'Sedot WC Medan 24 Jam | Jasa Sedot Tinja & Septic Tank - Medansedotwc.my.id';
+// Meta description: 143 karakter (batas maks blueprint pasal 4.2 = 155)
+$meta_desc      = 'Jasa sedot WC Medan 24 jam untuk rumah, ruko, kantor, dan kos. Tangani WC mampet, septic tank penuh, bau, dan saluran tersumbat. Survey gratis.';
 $canonical_path = '/';
+
 require_once __DIR__ . '/header.php';
 ?>
-
-
-    
-
 <!-- ===== Pop-up Notifikasi Pertama Kali ===== -->
 <div class="popup-overlay" id="welcomePopup">
   <div class="popup-box">
@@ -350,7 +352,5 @@ require_once __DIR__ . '/header.php';
 <section class="map-section">
     <iframe src="https://maps.google.com/maps?q=Gg.%20Sejahtera%2C%20Sunggal%2C%20Kec.%20Medan%20Sunggal%2C%20Kota%20Medan%2C%20Sumatera%20Utara%2020128&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Lokasi Sedot WC Medan"></iframe>
 </section>
-
-<!-- Footer -->
 
 <?php require_once __DIR__ . '/footer.php'; ?>

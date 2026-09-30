@@ -2,7 +2,7 @@
 /* ============================================================
    header.php — include SATU KALI di setiap halaman
    Berisi: <head> lengkap, meta SEO dinamis, kode AdSense (1x),
-           topbar + menu navigasi.
+           topbar + menu navigasi, lalu membuka <body>.
    Cara pakai (di awal file halaman):
      $page_title       = "Judul Halaman | Sedot WC Medan";
      $meta_desc        = "Deskripsi maks 155 karakter...";
@@ -208,7 +208,7 @@ $is_root_page   = ($canonical_path === '/');
                 Sedot WC Medan
             </a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="/#layanan">Layanan</a></li>
+                <li><a href="/#services">Layanan</a></li>
                 <li><a href="/blog">Blog</a></li>
                 <li><a href="/tentang">Tentang</a></li>
                 <li><a href="/kontak">Kontak</a></li>
