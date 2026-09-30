@@ -1,0 +1,3 @@
+# ads.txt — medansedotwc.my.id (pasal 7 blueprint)
+# Ganti [PUBLISHER_ID_ADSENSE] dengan ID asli dari dashboard AdSense (format ca-pub-XXXXXXXXXXXXXXXX)
+google.com, [PUBLISHER_ID_ADSENSE], DIRECT, f08c47fec0942fa0
