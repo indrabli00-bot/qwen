@@ -58,6 +58,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Resapan dangkal 1×1 meter dengan isian bata sisa adalah resep genangan musiman. Luas resapan harus sebanding volume tangki dan daya serap tanah lempung setempat. Kalau halaman sering becek di area resapan meski tangki baru disedot, masalahnya struktural — konsultasikan pembuatan sumur resapan dalam atau bidang resapan berpori sebelum November tiba.</p>
                 <p>Merawat septic tank pada dasarnya adalah merawat bakteri dan menjaga air bersih tidak masuk ke jalur kotor. Dua prinsip itu menutup tujuh kebiasaan perusak di atas. Dan ketika jadwal sedot tiba, gunakan penyedia yang mencatat volume terangkat — data itu adalah rapor kesehatan tangki Anda dari tahun ke tahun.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

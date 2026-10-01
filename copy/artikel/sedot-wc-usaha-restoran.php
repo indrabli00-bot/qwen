@@ -54,6 +54,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Kapan Panggil Teknisi Sebelum Masuk Jam Buka</h2></p>
                 <p>Gejala pra-bencana: bilas wastafel dapur melambat 2–3 hari berturut-turut, suara glubuk dari floor drain, atau bau meningkat saat blower hood mati malam hari. Jangan tunggu luber. Booking pagi buta atau setelah tutup adalah slot favorit kami untuk klien F&B karena pekerjaan jetting berisik dan becek — diselesaikan diam-diam, restoran buka normal, pelanggan tidak pernah tahu ada truk tangki di gang belakang.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

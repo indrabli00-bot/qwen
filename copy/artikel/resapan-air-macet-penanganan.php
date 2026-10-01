@@ -59,6 +59,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Rutinitas Pencegahan Musiman</h2></p>
                 <p>Sebelum November: kosongkan tangki sesuai jadwal, potong akar dekat jalur resapan, bersihkan tutup sumur dari tanah penutup. Selama puncak hujan: alihkan air atap agar tidak membanjiri area resapan. Setelah musim: lakukan tes 2 ember di atas. Tiga ritual kecil ini membedakan rumah yang bertahan lintas musim hujan dan rumah yang tiap tahun memanggil truk.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

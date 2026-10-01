@@ -63,6 +63,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Hubungi jasa sedot WC bila: genangan muncul di sekitar bak kontrol atau tutup tangki, limbah sempat meluber ke selokan, bau tak hilang setelah tangki terakhir disedot kurang dari setahun, atau rumah memakai septic tank lama tanpa pernah diaudit volumenya. Untuk kasus sumbatan, teknisi perlu turun kalau dua percobaan mandiri gagal atau ada indikasi benda keras di sifon.</p>
                 <p>Saat menelepon, sebutkan hasil tes Anda: titik mana saja yang lambat, sejak kapan, dan apakah bak kontrol meluap. Informasi sesederhana itu membuat teknisi datang membawa peralatan yang tepat — truk sedot untuk tangki, atau mesin spiral untuk pipa — sehingga kunjungan pertama langsung menyelesaikan masalah.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

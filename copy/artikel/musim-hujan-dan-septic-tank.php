@@ -52,6 +52,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Setelah Hujan: Evaluasi Lima Menit</h2></p>
                 <p>Beberapa hari setelah hujan panjang berhenti, lakukan jalan kaki inspeksi: apakah tanah di sekitar resapan masih lunak berbau setelah 3–4 hari cerah? Apakah level bak kontrol turun ke garis normal? Dua-duanya ya — sistem Anda lulus ujian musim ini. Salah satunya menetap — itu sinyal resapan perlu perlakuan (pengeringan paksa, kuras, atau rehabilitasi media), dan waktunya sekarang, bukan hujan berikutnya.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

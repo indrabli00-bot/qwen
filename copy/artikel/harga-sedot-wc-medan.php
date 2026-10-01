@@ -59,6 +59,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Kirim lewat WhatsApp: (1) foto area sekitar bak/tutup tangki, (2) alamat lengkap dan patokan mudah, (3) kapan terakhir disedot kalau ingat, (4) gejala sekarang. Dalam satu alur chat Anda akan menerima estimasi rentang + opsi jadwal. Untuk area Medan Sunggal dan sekitarnya, survey langsung tetap GRATIS tanpa kewajiban lanjut.</p>
                 <p>Transparansi harga adalah bagian dari desain layanan kami. Angka final tidak akan berubah dari kesepakatan kecuali ditemukan kondisi tersembunyi (misalnya tutup tangki dicor permanen) — dan perubahan itu pun harus disetujui Anda sebelum pekerjaan berlanjut.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

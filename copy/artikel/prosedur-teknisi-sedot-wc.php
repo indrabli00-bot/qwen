@@ -54,6 +54,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Tiga Pertanyaan Saat Booking</h2></p>
                 <p>(1) Berapa estimasi durasi dan apakah harga sudah termasuk jetting selang? (2) Apakah volume terangkat dilaporkan tertulis? (3) Bagaimana penanganan bila ditemukan retak pada tutup atau pipa? Jawaban yang lugas dan spesifik menandakan operator yang bekerja dengan SOP; jawaban ngawur adalah filter gratis Anda sebelum mobil tangki berangkat.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

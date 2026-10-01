@@ -59,6 +59,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Urutan Bertindak Malam Ini</h2></p>
                 <p>Satu: tuang air ke semua drain kering. Dua: bersihkan nat dan lantai sekitar pangkal kloset sampai kedalaman nat dengan sikat. Tiga: cium bak kontrol (pakai masker, jangan condongkan wajah). Empat: cek ujung ventilasi atap. Bila empat langkah tidak mengubah apa pun, kemungkinan besar sumbernya volume tangki atau resapan — dua hal yang memang ranah alat sedot, bukan alat bersih-bersih. Kirim video bau-ke mana-paling-terasa lewat WhatsApp, kami bantu arahkan diagnosis awalnya gratis.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

@@ -59,6 +59,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Kapan Berhenti dan Menelepon</h2></p>
                 <p>Tanda Anda harus berhenti: air naik sampai ambang luber saat percobaan, bau sulfida ikut muncul, floor drain lain mulai berbuih, atau dua siklus alat gagal total. Keempatnya menandakan masalah di luar jangkauan alat rumahan — umumnya di bak kontrol, tangki, atau kemiringan pipa. Menelepon jasa sedot WC pada titik ini justru menghemat: pekerjaan lokal selesai satu kunjungan sebelum berubah jadi proyek resapan.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

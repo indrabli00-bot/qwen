@@ -52,6 +52,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Ambang Batas: Kapan Checklist Berubah Jadi Telepon</h2></p>
                 <p>Jika dua dari empat tanda merah muncul bersamaan, atau satu tanda menetap lebih dari seminggu, hentikan diagnosis mandiri. Itu wilayah alat: volume sludge perlu diukur dengan spit-and-sample atau sensor, dan resapan perlu uji laju serap. Memanggil teknisi pada tahap ini adalah panggilan preventif (murah, bersih, cepat) — menunggu luber mengubahnya jadi pekerjaan darurat yang lebih mahal dan jauh lebih kotor.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

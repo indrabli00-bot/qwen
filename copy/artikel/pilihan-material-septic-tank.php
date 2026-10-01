@@ -54,6 +54,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Indikator Kualitas yang Sering Dilupakan: Baffle</h2></p>
                 <p>Apapun materialnya, pastikan ada inlet-outlet baffle (sekat T) yang mencegah scum keluar ke resapan. Tangki mahal tanpa baffle kalah dari tangki murah dengan baffle rapi. Dan beri ventilasi minimal diameter 75 mm di chamber kedua — gas metana yang terperangkap adalah penyebab tutup melenting dan bau di sekitar bak kontrol yang sering dikira "tangki bocor".</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

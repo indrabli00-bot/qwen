@@ -57,6 +57,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Untuk pekerjaan darurat, minta rincian tertulis via WhatsApp sebelum teknisi berangkat: lingkup (sedot vs dongkrak), estimasi rit, dan akses gang. Penghuni boleh patungan operasional ringan (misal biaya material pembersih), tetapi komponen modal (truk sedot, penggantian pipa) tetap domain pemilik — kecuali kelalaian terbukti. Semua pihak tenang ketika garisnya jelas.</p>
                 <p>Dan untuk keluhan berulang di kos lama: kadang akar masalahnya kemiringan pipa atau tangki under-capacity warisan pembangunan. Sekali biaya audit menyeluruh bisa menghapus langganan sedot darurat tahunan — hitung sebagai investasi kenyamanan penyewa, bukan pengeluaran hangus.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>
