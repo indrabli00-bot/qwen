@@ -60,6 +60,9 @@ require_once __DIR__ . '/../header.php';
                 <p>Tanda Anda harus berhenti: air naik sampai ambang luber saat percobaan, bau sulfida ikut muncul, floor drain lain mulai berbuih, atau dua siklus alat gagal total. Keempatnya menandakan masalah di luar jangkauan alat rumahan — umumnya di bak kontrol, tangki, atau kemiringan pipa. Menelepon jasa sedot WC pada titik ini justru menghemat: pekerjaan lokal selesai satu kunjungan sebelum berubah jadi proyek resapan.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Rangkuman Cepat: Cocokkan Gejala dengan Alat</h2>
+                <p>Agar tidak salah pilih, gunakan pemetaan singkat ini sebelum membeli atau meminjam alat. Sumbatan kertas di mangkuk kloset: plunger mangkuk, selesai dalam dua menit. Benda asing licin (botol, mainan) yang masih terasa di leher angsa: kait kawat hanger, lalu spiral jika kait gagal. Lendir tipis dan bau samar di saluran wastafel yang ikut lambat: soda kue–cuka disusul air hangat, diamkan malam penuh. Air surut tapi sangat pelan di semua titik kamar mandi: pompa pressurizer sebagai dorongan terakhir sebelum menelepon teknisi. Dan bila air justru naik ke floor drain saat kloset disiram — tidak ada alat rumahan yang tepat; itu gejala tangki penuh atau resapan jenuh, ranahnya peralatan sedot profesional.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

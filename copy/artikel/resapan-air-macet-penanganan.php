@@ -60,6 +60,9 @@ require_once __DIR__ . '/../header.php';
                 <p>Sebelum November: kosongkan tangki sesuai jadwal, potong akar dekat jalur resapan, bersihkan tutup sumur dari tanah penutup. Selama puncak hujan: alihkan air atap agar tidak membanjiri area resapan. Setelah musim: lakukan tes 2 ember di atas. Tiga ritual kecil ini membedakan rumah yang bertahan lintas musim hujan dan rumah yang tiap tahun memanggil truk.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Tabel Keputusan: Bersihkan atau Buat Baru?</h2>
+                <p>Pilih tindakan berdasarkan umur dan gejala, bukan sekadar harga penawaran. Resapan berumur di bawah 8 tahun dengan air masih surut walau lambat: cukup jetting/pembersihan dan pemangkasan akar — biaya kecil, hasil bertahan tahunan. Resapan 8–15 tahun yang baru jenuh musim ini: pembersihan plus pengurangan debit (pisahkan saluran air hujan), lalu pantau enam bulan. Resapan lebih dari 15 tahun, atau sudah dua kali meluber dalam setahun meski pernah dibersihkan: buat resapan baru di lokasi berbeda minimal 1,5 meter dari yang lama dan 3 meter dari fondasi. Menunda keputusan pada kasus terakhir hanya menambah biaya: tanah yang terlanjur jenuh limbah sulit pulih, dan bau bisa merembet ke rumah tetangga sebelum pekerjaan selesai.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

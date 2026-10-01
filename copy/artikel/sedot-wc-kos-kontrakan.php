@@ -58,6 +58,12 @@ require_once __DIR__ . '/../header.php';
                 <p>Dan untuk keluhan berulang di kos lama: kadang akar masalahnya kemiringan pipa atau tangki under-capacity warisan pembangunan. Sekali biaya audit menyeluruh bisa menghapus langganan sedot darurat tahunan — hitung sebagai investasi kenyamanan penyewa, bukan pengeluaran hangus.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Kesepakatan Tulis-Tangan yang Melindungi Kedua Pihak</h2>
+                <p>Masalah paling mahal di kos bukan kloset mampet — melainkan sengketa siapa yang membayar saat mampet terjadi. Buat aturan tertulis satu halaman dan tempel di belakang pintu setiap kamar: penghuni wajib melapor dalam 24 jam sejak gejala pertama (bukan saat sudah luber), dilarang membuang sampah padat ke kloset, dan penggantian segel/kerusakan akibat kelalaian pribadi ditanggung penghuni terkait. Sebaliknya, pemilik menanggung penyedotan terjadwal dan perbaikan jalur utama. Aturan sederhana ini mengubah "rebutan biaya" menjadi pembagian yang jelas, sekaligus membuat keluhan datang lebih awal — saat pekerjaan masih kecil, murah, dan bisa selesai satu kunjungan.</p>
+
+                <h2>Tipe Kos dan Strategi yang Berbeda</h2>
+                <p>Kos 5 pintu dengan penghuni tetap lama berbeda karakternya dengan kos 20 pintu berputar. Pada kos kecil, jadwal sedot pasif (misalnya tiap 4 tahun) masih aman karena beban harian stabil dan mudah dipantau pemilik yang tinggal di lokasi. Pada kos besar atau kos harian, gunakan pendekatan aktif: periksa ketinggian bak kontrol tiap kuartal dan jadwalkan sedot berdasarkan data, bukan kalender. Tambahkan pula satu kebiasaan murah — tempel instruksi tiga baris di setiap kamar (tidak membuang sampah padat, laporkan keluhan dalam 24 jam, jangan siram dua kali berturut saat aliran lambat). Dari pengalaman lapangan, instreksi sederhana ini menurunkan panggilan darurat hampir separuh karena sumbatan kertas ditangani sejak hari pertama, bukan saat sudah total.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

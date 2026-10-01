@@ -55,6 +55,19 @@ require_once __DIR__ . '/../header.php';
                 <p>Apapun materialnya, pastikan ada inlet-outlet baffle (sekat T) yang mencegah scum keluar ke resapan. Tangki mahal tanpa baffle kalah dari tangki murah dengan baffle rapi. Dan beri ventilasi minimal diameter 75 mm di chamber kedua — gas metana yang terperangkap adalah penyebab tutup melenting dan bau di sekitar bak kontrol yang sering dikira "tangki bocor".</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Perbandingan Empat Bahan dalam Tabel Singkat</h2>
+                <table>
+                    <tr><th>Bahan</th><th>Umur pakai wajar</th><th>Risiko utama</th><th>Cocok untuk</th></tr>
+                    <tr><td>Beton pracetak</td><td>20+ tahun</td><td>Retak di sambungan bila tanah turun tidak rata</td><td>Rumah tetap, akses truk mudah (berat)</td></tr>
+                    <tr><td>Fiberglass</td><td>12–18 tahun</td><td>Mengambang bila pasang tidak diberi jangkar/urugan tepat</td><td>Tanah basah, gang sempit (ringan)</td></tr>
+                    <tr><td>Plastik PE</td><td>10–15 tahun</td><td>Dinding penyok saat pengosongan jika tekanan tanah tinggi</td><td>Kapasitas kecil, rumah 2–3 orang</td></tr>
+                    <tr><td>Biofil/biocell</td><td>15+ tahun (media diganti berkala)</td><td>Media filter jarang dirawat → output keruh</td><td>Lahan sempit, dekat sumber air/pemukatan padat</td></tr>
+                </table>
+                <p>Tidak ada pemenang mutlak — yang ada adalah bahan yang salah dipasang. Fiberglass yang dijangkar benar mengalahkan beton yang diletakkan di tanah urugan belum stabil. Karena itu, sebelum memilih material, pastikan dulu kondisi tanah dan kedalaman muka air; dua faktor itu menentukan lebih banyak hal daripada merek tangki.</p>
+
+                <h2>Tiga Pertanyaan yang Menentukan Sebelum Membeli</h2>
+                <p>Sebelum membandingkan harga antar toko, jawab tiga pertanyaan ini di lokasi pemasangan. Pertama: berapa kedalaman muka air tanah di lahan Anda? Di banyak titik Medan utara dan pinggiran sungai, air tanah tinggi sepanjang tahun — kondisi ini membuat fiberglass wajib diberi jangkar beton atau urugan pemberat, sementara plastik PE butuh rusuk penguat ekstra. Kedua: seberapa besar beban di atasnya? Area parkir atau jalan mobil menuntut tangki dengan pelat penutup beton bertulang dan lapisan penutup (cover slab) terpisah, apa pun bahan badannya. Ketiga: siapa yang memasang? Tangki beton pracetak butuh alat angkat; fiberglass bisa diusung manual lewat gang sempit. Biaya pengangkatan kadang melebihi selisih harga antar material — jadi hitung total "sampai terpasang", bukan harga unit saja. Tiga jawaban itu biasanya sudah menggugurkan separuh opsi sebelum Anda menginjak toko bangunan.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

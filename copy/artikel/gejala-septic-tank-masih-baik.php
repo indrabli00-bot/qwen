@@ -53,6 +53,9 @@ require_once __DIR__ . '/../header.php';
                 <p>Jika dua dari empat tanda merah muncul bersamaan, atau satu tanda menetap lebih dari seminggu, hentikan diagnosis mandiri. Itu wilayah alat: volume sludge perlu diukur dengan spit-and-sample atau sensor, dan resapan perlu uji laju serap. Memanggil teknisi pada tahap ini adalah panggilan preventif (murah, bersih, cepat) — menunggu luber mengubahnya jadi pekerjaan darurat yang lebih mahal dan jauh lebih kotor.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Rapor Kesehatan Tangki: Catat Empat Angka Ini Tiap Tahun</h2>
+                <p>Agar "masih baik" tidak sekadar feeling, catat empat angka setiap kali tangki disedot atau diperiksa. (1) Ketebalan lumpur di chamber pertama — bila saat diperiksa kurang dari sepertiga kedalaman efektif, penguraian masih sehat. (2) Kejernihan air di chamber kedua setelah didiamkan semalam; keruh pekat menandakan baffle jebol atau scum lolos. (3) Hasil tes surut 2 ember di resapan — waktu hilang lebih dari 15 menit berarti daya serap mulai turun meski belum meluber. (4) Volume terangkat saat sedot dalam liter. Dari keempat angka ini Anda bisa memprediksi jadwal sedot berikutnya dengan galat kecil, bukan menebak-nebak. Simpan catatannya di laci dan foto struknya — saat berpindah rumah atau menjual properti, riwayat ini justru menaikkan nilai jual sistem sanitasi.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

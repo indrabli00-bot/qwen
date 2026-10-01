@@ -59,6 +59,9 @@ require_once __DIR__ . '/../header.php';
                 <p>Merawat septic tank pada dasarnya adalah merawat bakteri dan menjaga air bersih tidak masuk ke jalur kotor. Dua prinsip itu menutup tujuh kebiasaan perusak di atas. Dan ketika jadwal sedot tiba, gunakan penyedia yang mencatat volume terangkat — data itu adalah rapor kesehatan tangki Anda dari tahun ke tahun.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Jadwal Perawatan Bulanan yang Realistis</h2>
+                <p>Sembilan kesalahan di atas semuanya dicegah oleh rutinitas sederhana. Buat jadwal tetap: setiap malam Minggu, tuang satu ember air ke floor drain yang jarang dipakai agar water seal tidak kering; sebulan sekali, bersihkan nat dan pangkal kloset sampai kedalaman nat; tiga bulan sekali, cek visual bak kontrol (buka tutup secukupnya, lihat ketinggian air dengan senter — jangan condongkan wajah); dan sesuai umur tangki, jadwalkan penyedotan sebelum gejala muncul. Rutinitas ini memakan total kurang dari satu jam per bulan, tetapi memotong hampir semua penyebab panggilan darurat: sumbatan kertas menumpuk, bau dari seal kering, hingga resapan yang jenuh tanpa terasa.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

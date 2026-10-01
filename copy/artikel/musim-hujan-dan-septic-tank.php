@@ -53,6 +53,9 @@ require_once __DIR__ . '/../header.php';
                 <p>Beberapa hari setelah hujan panjang berhenti, lakukan jalan kaki inspeksi: apakah tanah di sekitar resapan masih lunak berbau setelah 3–4 hari cerah? Apakah level bak kontrol turun ke garis normal? Dua-duanya ya — sistem Anda lulus ujian musim ini. Salah satunya menetap — itu sinyal resapan perlu perlakuan (pengeringan paksa, kuras, atau rehabilitasi media), dan waktunya sekarang, bukan hujan berikutnya.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Ritual Tiga Musim: Sebelum, Selama, dan Setelah Hujan</h2>
+                <p>Kunci bertahan musim hujan bukan alat mahal melainkan waktu tindakan. SEBELUM November (mulai musim): kosongkan tangki bila sudah mendekati jadwal — tangki setengah penuh kehilangan daya tampung ekstra saat debit naik; potong akar dekat jalur resapan dan tutup sumur dari tanah penutup yang bisa hanyut masuk. SELAMA puncak Desember–Januari: kurangi debit besar sekaligus (cuci mobil jangan ke kloset, mesin cuci jangan dua unit bersamaan), dan alihkan air talang atap menjauh dari area resapan — genangan air hujan di atas resapan adalah penyebab surut-macet yang paling sering disalahartikan sebagai "tangki penuh". SETELAH musim: lakukan tes surut 2 ember; kalau masih lambat meski tidak ada gejala lain, jadwalkan pembersihan resapan di bulan kering berikutnya ketika pekerjaan lebih bersih dan lebih murah.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

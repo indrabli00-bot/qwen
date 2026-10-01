@@ -55,6 +55,12 @@ require_once __DIR__ . '/../header.php';
                 <p>Gejala pra-bencana: bilas wastafel dapur melambat 2–3 hari berturut-turut, suara glubuk dari floor drain, atau bau meningkat saat blower hood mati malam hari. Jangan tunggu luber. Booking pagi buta atau setelah tutup adalah slot favorit kami untuk klien F&B karena pekerjaan jetting berisik dan becek — diselesaikan diam-diam, restoran buka normal, pelanggan tidak pernah tahu ada truk tangki di gang belakang.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Protokol Darurat: Restoran Tetap Buka Saat Saluran Bermasalah</h2>
+                <p>Kebanyakan masalah saluran di rumah makan terjadi justru pada jam sibuk — Sabtu malam, saat semua kloset dan grease trap bekerja bersamaan. Siapkan protokol satu halaman untuk manajer lantai: (1) tutup sementara wastafel cuci piring terakhir dan arahkan cucian ke bak lain; (2) jika bau atau genangan muncul dari floor drain dapur, hentikan penggunaan air di area itu, jangan menyiram kloset terdekat; (3) telepon layanan sedot dengan menyebut "kondisi darurat restoran" agar diprioritaskan; (4) bila penyedotan tidak bisa datang hari yang sama, batasi operasi ke menu tanpa proses cuci berat sampai saluran pulih. Latihan protokol ini sekali per kuartal bersama staf baru — biaya pencegahan semalam jauh di bawah kerugian menutup satu shift akhir pekan.</p>
+
+                <h2>Hitungan Sederhana Beban Harian Dapur</h2>
+                <p>Agar jadwal tidak berbasis tebakan, lakukan hitung satu jam saja di akhir pekan. Ukur berapa kali wastafel cuci piring dipakai per shift dan taksir debitnya (kran 6 liter/menit × durasi rata-rata membilas), lalu kalikan hari kerja. Rumah makan 100 kursi yang beroperasi dua shift biasanya menghasilkan 800–1.500 liter air cucian dapur per hari — jauh di atas rumah tangga biasa, dan sebagian besar membawa lemak teremulsi yang tidak terlihat mata. Angka ini menentukan dua hal: interval pengurasan grease trap (umumnya 1–3 bulan untuk volume itu) dan kapasitas tangki minimum yang seharusnya tersedia. Kalau hasil hitungan Anda melampaui kapasitas efektif tangki warisan bangunan, solusinya bukan sekadar sedot lebih sering — tetapi penambahan septic terpisah khusus jalur dapur agar beban lemak tidak bertemu jalur kloset.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

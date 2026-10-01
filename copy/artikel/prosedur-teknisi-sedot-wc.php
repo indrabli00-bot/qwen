@@ -55,6 +55,12 @@ require_once __DIR__ . '/../header.php';
                 <p>(1) Berapa estimasi durasi dan apakah harga sudah termasuk jetting selang? (2) Apakah volume terangkat dilaporkan tertulis? (3) Bagaimana penanganan bila ditemukan retak pada tutup atau pipa? Jawaban yang lugas dan spesifik menandakan operator yang bekerja dengan SOP; jawaban ngawur adalah filter gratis Anda sebelum mobil tangki berangkat.</p>
 
                 <?php art_ad_slot(); ?>
+                <h2>Apa yang Anda Lihat dari Luar Saat Crew Bekerja</h2>
+                <p>Mengetahui apa yang terjadi di luar pintu membantu Anda memastikan pekerjaan berjalan benar. Urutan visualnya: truk parkir sedekat mungkin dengan akses bak kontrol, selang hisap tebal ditarik menuju titik bukaan; crew membuka tutup tangki secukupnya (bukan seluruhnya) dan memasukkan selang sampai menyentuh lapisan lumpur, bukan air jernih di atasnya — inilah sebabnya durasi sedot bervariasi menurut ketebalan endapan. Selama proses, volume yang terangkat terlihat di indikator tabung pada unit tertentu. Setelah selesai, area dibilas, tutup dipasang rapat kembali, dan jalur pembilasan dites dengan satu-dua siraman penuh. Kalau ada langkah yang terasa dilewati — misalnya selang hanya berputar di lapisan atas selama lima menit lalu dicabut — tanyakan langsung ketinggian lumpur akhir yang tercatat.</p>
+
+                <h2>SOP Tiga Poin untuk Klien: Yang Perlu Anda Siapkan</h2>
+                <p>Pekerjaan yang lancar di sisi kami dimulai dari tiga persiapan kecil di sisi Anda. (1) Akses: pastikan jalur menuju bak kontrol bebas kendaraan parkedir, pot besar, atau gembok halaman — selang standar sepanjang 30–50 meter kehilangan daya tarik kalau harus berbelok melewati dua properti tetangga. (2) Informasi umur dan riwayat: kapan terakhir disedot dan gejala apa yang muncul minggu ini; dua data ini menentukan panjang selang, ukuran unit, dan durasi yang kami janjikan. (3) Satu titik koordinasi: tunjuk satu orang yang tahu letak tutup sumur dan bisa membuka akses saat crew tiba, terutama untuk ruko, kantor, dan kos. Persiapan lima menit ini memangkas rata-rata 20–40 menit waktu kerja lapangan, dan pada gang sempit Medan perbedaan itulah yang menentukan pekerjaan selesai sebelum siang atau lewat tengah hari.</p>
+
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>
