@@ -14,6 +14,22 @@
 
 if (!defined('ART_BASE')) { define('ART_BASE', 'https://medansedotwc.my.id'); }
 
+/**
+ * Slot iklan AdSense responsif. Aman sebelum disetujui: tanpa data-ad-client,
+ * tidak akan dirender sampai unit iklan dibuat di dashboard (lihat PANDUAN-ADSENSE.md).
+ */
+function art_ad_slot() {
+    ?>
+                <div class="ad-slot" aria-hidden="true">
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-format="auto"
+                         data-full-width-responsive="true"></ins>
+                    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+                </div>
+    <?php
+}
+
 function art_meta_tanggal($iso) {
     static $bulan = array(1=>'Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember');
     $p = explode('-', $iso);

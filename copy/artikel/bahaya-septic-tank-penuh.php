@@ -65,6 +65,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Pencegahan = jadwal sedot berbasis volume (artikel frekuensi) + perilaku: tidak membuang tisu basah/minyak, menjaga ventilasi terbuka. Penanganan darurat = sedot dua rit + bongkar paving yang tergenang + kadang membuat resapan baru — bisa sepuluh kali lipat biaya rutin, belum termasuk risiko kesehatan selama masa kelalaian.</p>
                 <p>Kalau Anda ragu kondisi tangki saat ini, kirim foto halaman sekitar bak kontrol lewat WhatsApp dan kami bantu baca gejalanya. Diagnosis awal gratis, dan untuk area Medan Sunggal sekitarnya survey langsung tetap GRATIS — keputusan perbaikan tetap di tangan Anda setelah angka diketahui.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

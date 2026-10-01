@@ -91,6 +91,7 @@ require_once __DIR__ . '/../header.php';
                     Jangan menuang soda api atau asam pekat ke kloset yang mampet total — cairan tidak akan lewat sumbatan dan berisiko memercik kembali saat Anda bekerja di atasnya. Jangan juga memasukkan tangan ke bak kontrol; gas metana di dalamnya berbahaya dan limbahnya mengandung patogen.
                 </div>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

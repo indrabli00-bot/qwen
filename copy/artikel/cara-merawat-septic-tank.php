@@ -104,6 +104,7 @@ require_once __DIR__ . '/../header.php';
                 </ul>
                 <p>Bila dua atau lebih gejala muncul bersama, kemungkinan besar sisa waktu tangki tinggal beberapa bulan lagi. Penanganan dini selalu lebih murah daripada penanganan saat meluap.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

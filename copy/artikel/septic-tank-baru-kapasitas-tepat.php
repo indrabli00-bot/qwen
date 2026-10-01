@@ -61,6 +61,7 @@ require_once __DIR__ . '/../header.php';
                 <p><h2>Hitung Sekali, Hemat Bertahun-tahun</h2></p>
                 <p>Sebelum membangun atau merenovasi, kirim denah + jumlah penghuni ke kami lewat WhatsApp; kami bantu cek kewarasan volume dan posisi akses sedot — konsultasi awal gratis, tanpa kewajiban proyek. Yang sudah terlanjur punya tangki "warisan" tanpa data, kunjungan sedot pertama adalah momen audit paling murah: ukur volume aktual, catat, lalu kunci jadwal sedot dari angka nyata itu.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>

@@ -59,6 +59,7 @@ require_once __DIR__ . '/../header.php';
                 <p>Setel pengingat kalender sesuai tanggal sedot terakhir ditambah interval versi rumah Anda — jangan menunggu gejala. Tanda "sudah waktunya" yang paling andal justru belum munculnya masalah: bak kontrol masih bersih, halaman kering, air turun normal. Ketika tiga hal itu berubah, artinya Anda sudah telat satu putaran.</p>
                 <p>Untuk usaha dan properti sewaan, buat kontrak perawatan berkala dengan penyedia jasa sedot WC langganan: harga per kunjungan biasanya lebih baik, dan jadwal berjalan otomatis meski pengelola berganti. Simpan struk laporan volume terangkat — angka liter lumpur per periode adalah data terbaik untuk menghitung ritme tangki Anda sendiri.</p>
 
+                <?php art_ad_slot(); ?>
                 <h2>Pertanyaan yang Sering Diajukan</h2>
                 <div class="faq-list">
                     <?php foreach ($faq as $f): ?>
