@@ -1,7 +1,7 @@
 <!-- ============================================================
      footer.php — include di bawah SETIAP halaman.
      Berisi: footer (copyright + 4 halaman wajib), CTA mengambang,
-     script, penutup </body></html>.
+     script, lalu menutup dokumen HTML.
      ============================================================ -->
 <footer>
     <div class="container">
